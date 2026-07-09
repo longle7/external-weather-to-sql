@@ -1,0 +1,6 @@
+@ExternalWeatherToSql_HostAddress = http://localhost:5293
+
+GET {{ExternalWeatherToSql_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
